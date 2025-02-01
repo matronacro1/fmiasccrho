@@ -1,0 +1,13 @@
+<?XML version="1.0"?>
+<scriptlet>
+    <registration
+        description="Innocuous Description"
+        progid="MyScriptlet"
+        version="1.0"/>
+    <script language="VBScript">
+        <![CDATA[
+            Set WshShell = CreateObject("WScript.Shell")
+            WshShell.Run "C:\users\biter\desktop\Test\MSG.bat", 0, False
+        ]]>
+    </script>
+</scriptlet>
